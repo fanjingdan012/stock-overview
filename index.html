@@ -36,7 +36,7 @@ function printLine(row, stock) {
     var cell4 = x.insertCell(4);
     var cell5 = x.insertCell(5);
     cell0.innerHTML = stock;
-    cell1.innerHTML = stock;
+    cell1.innerHTML = "<a href='https://xueqiu.com/S/"+stock+"' target='_blank'>"+stock+"</a>";
     cell2.innerHTML = "<img src='http://image.sinajs.cn/newchart/min/n/"+stock+".gif' />";
     cell3.innerHTML = "<img src='http://image.sinajs.cn/newchart/daily/n/"+stock+".gif' />";
     cell4.innerHTML = "<img src='http://image.sinajs.cn/newchart/weekly/n/"+stock+".gif' />";
